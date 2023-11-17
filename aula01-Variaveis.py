@@ -13,3 +13,8 @@ a = b = c = "Mesmo valor"
 
 tupla = ["A", "B", "C"]
 
+#Imprimindo string + inteiro
+texto = "O valor é: "
+numero = 20
+
+print(texto + str(numero))
