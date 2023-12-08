@@ -2,7 +2,7 @@
         Dados
 *---------------------*
 
-Primeiros passos:
+# Primeiros passos:
 
 git config --global user.email "your-email"
 
@@ -12,3 +12,15 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/gab-szz/Curso_Python-Git.git
 git push -u origin main
+________________________
+
+# Para adicionar um arquivo
+
+git add nome_arquivo.txt
+git add .        # Adiciona todos arquivos da pasta
+
+# Para salvar o momento do arquivo e comentar
+
+git commit nome_arquivo.txt -m "Comentario"
+git commit -a -m "Comentario"   # Envia todos arquivos com Comentario
+
