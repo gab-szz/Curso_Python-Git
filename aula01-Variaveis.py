@@ -66,3 +66,34 @@ print(txt.split(" "))
 idade = 21
 txt2 = "Minha idade é {}"
 print(txt2.format(idade))
+
+# Dicas (Caracteres de escape)
+txt = "Somos os chamados \"vikings\" do norte." #Assim conseguimos imprimir as ""
+print(txt)
+
+txt = "Ola\nMundo!" # Quebra de linha
+print(txt) 
+
+txt = "Ola\rMundo!" # Retorna
+print(txt) 
+
+txt = "Ola\tMundo!" # Tabulação
+print(txt)
+txt = "Isso irá inserir um \\ (barra invertida)." 
+print(txt) 
+
+txt = 'It\'s alright.' # Substitui por uma aspas simples
+print(txt) 
+
+txt = "Ola \bMundo!" #Este exemplo apaga um caractere (backspace):
+print(txt)
+
+txt = "\x48\x65\x6c\x6c\x6f" #Uma barra invertida seguida por um 'x' e um número hexadecimal representa um valor hexadecimal
+print(txt) 
+
+txt = "\110\145\154\154\157" #Uma barra invertida seguida por três inteiros resultará em um valor octal
+print(txt) 
+
+
+# Confirmar se é uma instância
+print(isinstance(txt, str)) 
