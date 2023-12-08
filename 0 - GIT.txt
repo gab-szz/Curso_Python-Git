@@ -23,4 +23,8 @@ git add .        # Adiciona todos arquivos da pasta
 
 git commit nome_arquivo.txt -m "Comentario"
 git commit -a -m "Comentario"   # Envia todos arquivos com Comentario
+________________________
 
+# Receber as mudanças do repositório (e arquivos)
+
+git pull
