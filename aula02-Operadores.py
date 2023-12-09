@@ -32,10 +32,60 @@ print(b)
 
 # Operadores de Atribuição
 
+x = 5
+print(x)
+
+x = 5
+x += 3 # x = x + 3
+print(x)
+
+x = 5
+x -= 3 # x = x - 3
+print(x)
+
+x = 5
+x *= 3 # x = x * 3
+print(x)
+
+x = 5
+x /= 3 # x = x / 3
+print(x)
+
+x = 5
+x %= 3 # x = x % 3
+print(x)
+
+x = 5
+x //= 3 # x = x // 3
+print(x)
+
+x = 5
+x **= 3 # x = x ** 3
+print(x)
+
 # Operações de Comparação
+
+x = 5
+y = 3
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
 
 # Operadores Lógicos
 
+x = 5
+print(x > 3 and x < 10)
+
+print(x > 3 or x < 4)
+
+print(not(x > 3 and x < 10))
+
 # Operadores de Identidade
 
+
+
 # Operadores de Associação
+
