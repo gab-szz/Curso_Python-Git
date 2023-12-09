@@ -77,15 +77,31 @@ print(x <= y)
 # Operadores Lógicos
 
 x = 5
-print(x > 3 and x < 10)
+print(x > 3 and x < 10) # Retorna true se ambos forem verdadeiros
 
-print(x > 3 or x < 4)
+print(x > 3 or x < 4) # Retorna true se um for verdadeiro
 
-print(not(x > 3 and x < 10))
+print(not(x > 3 and x < 10)) # Inverte o retorno
 
 # Operadores de Identidade
 
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
 
+print(x is z)
+print(x is y)
+print(x == y)
+
+print(x is not z)
+print(x is not y)
+print(x != y)
 
 # Operadores de Associação
 
+x = ["maça", "banana"]
+print("banana" in x)
+print("abacaxi" not in x)
+
+x = [150, 348, 25]
+print(348 in x)
