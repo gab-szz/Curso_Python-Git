@@ -34,8 +34,14 @@ for indice in range(len(lista)):
     print("{} {}".format(indice, lista[indice]))
 
 # Compreensão de lista
-# código 
+#  - Código sem compreensão 
+novaLista = []
+for x in lista:
+    if "a" in x:
+        novaLista.append(x)
+print("Nova lista criada com os elementos: {}".format(novaLista))
 
+outraLista = [x for x in lista if "a" in x] 
 
 lista.clear() # Limpa a lista
 print(lista)
