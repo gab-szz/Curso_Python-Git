@@ -1,0 +1,6 @@
+cobian
+conf:
+end=1
+txt=2
+local=c:
+end
