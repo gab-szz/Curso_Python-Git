@@ -41,7 +41,26 @@ for x in lista:
         novaLista.append(x)
 print("Nova lista criada com os elementos: {}".format(novaLista))
 
+# Faz uma lista com os elementos da lista que tem a
 outraLista = [x for x in lista if "a" in x] 
+
+numeros = [2,5,3,10,1,7,4,15]
+numeros.sort() # Organiza em ordem crescente (numeral e alfabética)
+numeros.sort(reverse = True) # Ordem decrescente 
+lista.sort(key = str.lower) # Não diferencia maiusculas e minusculas na ordem
+
+def muFunction(n):
+    return abs(n - 10)
+numeros.sort(key = muFunction) #Organiza de acordo com os números mais próximos de 10
+
+# Formas de copiar elementos de uma lista para outras
+copiaLista = lista.copy()
+copia = list(lista)
+
+# Juntanto listas
+listaTres = lista + copiaLista
+# for x in listaTres: lista.append(x)
+# listaTres.extend(lista) 
 
 lista.clear() # Limpa a lista
 print(lista)
