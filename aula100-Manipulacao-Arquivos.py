@@ -19,4 +19,7 @@ print(texto.read(6)) # apenas as 6 primeiras letras
 for x in texto:
     if "txt" in x:print(x)
 
-texto.close()
+texto.close(
+
+    
+)
