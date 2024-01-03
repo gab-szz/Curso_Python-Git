@@ -40,3 +40,15 @@ ________________________
 # Remover arquivos
 
 git rm nome_arquivo
+________________________
+
+# Histórico de alterações
+
+git log
+
+pra sair do log usamos o "q" ou "ctrl+c"
+________________________
+
+# Movendo e renomeando arquivos
+
+git mv nome_arquivo local\nome_arquivo
