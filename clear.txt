@@ -1,0 +1,113 @@
+[33mcommit 6e8d5baf00810f938c88b3b7e30a5e014b5ffe4a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Tue Jan 2 21:17:09 2024 -0400
+
+    Deletando arquivo desnecessário
+
+[33mcommit ef4c9f1a34b35706bcbcab48edb1fff424105a53[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Tue Jan 2 21:15:56 2024 -0400
+
+    Aprendendo a clonar e apagar arquivos no git
+
+[33mcommit c4fe115c16d789a6d0f87f7652d23ac5e7786bc0[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Tue Jan 2 20:58:07 2024 -0400
+
+    Aprendendo a manipular arquivos
+
+[33mcommit 46b50e6a7f64025eefd47dfb1b301b35d38099d9[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Wed Dec 13 21:55:18 2023 -0400
+
+    Aprendendo a manipular arquivos
+
+[33mcommit 95e562b637dc0e97a176735e935600b8a191a3c7[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Wed Dec 13 21:54:52 2023 -0400
+
+    Aprendendo a organizar e mesclar listas
+
+[33mcommit 2593d915313ef1fa699fd9c11414decc839e2e30[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Wed Dec 13 19:12:46 2023 -0400
+
+    Compreensão de lista
+
+[33mcommit 932be617cbda77bc35b447f59501e91f3b557bc0[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Mon Dec 11 20:20:15 2023 -0400
+
+    Aprendendo mais funções sobre as listas.
+
+[33mcommit 79927cfda9f244e157cd061ff7025dc03154e060[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 20:45:48 2023 -0400
+
+    Iniciando as aulas com listas - como criar listas
+
+[33mcommit 127abd166856465a565f4b2862ac2c9c621686e8[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 20:38:30 2023 -0400
+
+    Adicionado os operadores de identidade e operadores de Assosiação
+
+[33mcommit f2630d3ea9c7790c7995e48b2ed774b1dcab5fce[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 20:25:17 2023 -0400
+
+    Adicionado os operadores de comparação e operadores lógicos
+
+[33mcommit 390bfb5be2e71989af82520fb231f8deb32d4069[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 20:12:34 2023 -0400
+
+    Adicionado operadores aritméticos
+
+[33mcommit 241fbf2520330619194dbf4281fd6edd17cce73e[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 19:46:46 2023 -0400
+
+    Adicionado dicas de caracteres de escape ao trabalhar com strings
+
+[33mcommit 2e50bd1475fb9a4c1c88e4aa6590632693dd0b42[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 19:46:04 2023 -0400
+
+    mais anotações foram feitas
+
+[33mcommit 5deb0c259b8aa31e209c239c40fd2786ef558d8b[m
+Author: Gab Dev <125615352+gab-szz@users.noreply.github.com>
+Date:   Fri Dec 8 18:04:52 2023 -0400
+
+    Foi adicionado os titulos das aulas
+
+[33mcommit 9e8f33a220b8d25b1ca55da25e0d85be96b0fe37[m
+Author: Gab Dev <125615352+gab-szz@users.noreply.github.com>
+Date:   Fri Dec 8 18:01:37 2023 -0400
+
+    Create aula02-Operadores.py
+
+[33mcommit 5e1343305c1b7cb702d5ff2d38064f8a7ea1f458[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 17:54:08 2023 -0400
+
+    Atualizando arquivos
+
+[33mcommit 6396f4c98ac014f95af1d3b387bb2340036596cc[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Fri Dec 8 17:17:56 2023 -0400
+
+    Adicionado mais algumas funcionalidades das variáveis e manipulação de Strings
+
+[33mcommit ad33b1ed376fd2dffd3b980cf19fecd2e9bd5b36[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Thu Nov 16 20:32:44 2023 -0400
+
+    imprimindo string + inteiro
+
+[33mcommit 86c4324cd80dbeddc8614de5be44a5aead98ccbe[m
+Author: unknown <silvio.apad@gmail.com>
+Date:   Tue Nov 14 17:04:17 2023 -0400
+
+    Carregamento inicial
