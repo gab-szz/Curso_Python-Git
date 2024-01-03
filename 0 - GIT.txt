@@ -28,3 +28,15 @@ ________________________
 # Receber as mudanças do repositório (e arquivos)
 
 git pull
+________________________
+
+# Baixar um repositório
+
+git clone https://github.com/gab-szz/Curso_Python-Git.git . 
+
+git clone link_caminho_git repositorio
+________________________
+
+# Remover arquivos
+
+git rm nome_arquivo
