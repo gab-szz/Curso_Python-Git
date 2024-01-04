@@ -51,4 +51,9 @@ ________________________
 
 # Movendo e renomeando arquivos
 
-git mv nome_arquivo local/nome_arquivo
+git mv local/nome_arquivo local/nome_arquivo
+________________________
+
+# Desfazendo alterações
+
+git checkout 
