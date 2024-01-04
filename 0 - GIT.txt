@@ -57,3 +57,12 @@ ________________________
 # Desfazendo alterações
 
 git checkout 
+________________________
+
+# Ignorando arquivos ou diretórios em um projeto
+
+Criar um arquivo chamado .gitignore e colocar as exclusões
+dentro dele colocar os arquivos a serem ignorados ex:
+ignore.txt
+lixo/*
+________________________
