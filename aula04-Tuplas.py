@@ -43,3 +43,20 @@ del x
 
 (um, dois, *tres_e_quatro) = tupla
 print(type(um))
+
+# Percorrendo valores de uma tupla
+
+tupla1 = ("Gabriel", "Danny", "Arthur")
+print(tupla1)
+
+# for x in tupla1:
+#     print(x)
+
+# for i in range(len(tupla1)):
+#     print(tupla1[i])
+
+i = 0
+while i < len(tupla1):
+    print(tupla1[i])
+    i += 1
+
