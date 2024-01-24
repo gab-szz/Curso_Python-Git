@@ -66,3 +66,9 @@ dentro dele colocar os arquivos a serem ignorados ex:
 ignore.txt
 lixo/*
 ________________________
+
+# Desfazer todas alterações que ainda não foram enviadas ao push
+
+git reset --hard origin/master
+________________________
+

@@ -60,3 +60,6 @@ while i < len(tupla1):
     print(tupla1[i])
     i += 1
 
+# Juntando tuplas
+# tupla 3 = tupla1 + tupla2
+
