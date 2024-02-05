@@ -24,3 +24,12 @@ set1.pop() # Remove o último item
 print("Após remoção: {}".format(set1))
 # set1.clear() limpa todos elementos
 
+# Juntando Sets
+
+set4 = set()
+set4.update(set1)
+print("O set quatro é: {}".format(set4))
+
+set5 = set1.union(set2)
+print("O set cinco é: {}".format(set5))
+
