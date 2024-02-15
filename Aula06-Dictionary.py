@@ -9,26 +9,28 @@ dict1 = {
     "Filhos":["Rynna", "Emma"]
 }
 
-# Acessando um item do dicionaro:
+# Acessando um item do dicionario:
 print(dict1["Nome"])
 x = dict1.get("Nome")
 print(x)
 
 x = dict1.keys()
 print(x)
-dict1["Idade"] = 36
-print(x)
 
 x = dict1.values()
-print(x)
-dict1["Altur "] = 1.65
 print(x)
 
 x = dict1.items()
 print(x)
-dict1["Altura"] = 1.75
-print(x)
 
 if "Idade" in dict1:
-    print("Sim, 'Idade' é uma das chaves deste dictionary")
+    print("Sim, 'Idade' é uma das chaves deste dictionary\n")
+
+# Alterando valores de items em um dicionario:
     
+dict1["Ano"] = "2000"
+#ou
+dict1.update({"Ano": 2000})
+print(dict1)
+
+# 
