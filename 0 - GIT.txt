@@ -70,5 +70,71 @@ ________________________
 # Desfazer todas alterações que ainda não foram enviadas ao push
 
 git reset --hard origin/master
-________________________
 
+####################
+      Branches
+####################
+
+# Visualizar branches
+
+git branch
+
+# Criar um branch
+git branch <nome>
+
+# Deletar branch
+git branch -d ou --delete <nome>
+- Não é comum deletar um branch, só é deletado se o branch foi criado errado.
+
+# Mudar branch
+git checkout <nome>    - Apenas muda de branch
+git checkout -b <nome> - Muda e cria uma nova branch
+- Comando também utilizado para dispensar mudanças de um arquivo
+- Alterando o branch podemos levar alterações que não foram commitadas junto, cuidado!
+
+# Unir branch
+git merge <nome>
+- Normalmente é por meio deste que recebemos as atualizações de outros devs.
+
+# Utilizando o stash
+git stash
+- Salva as modificações atuais para prosseguir com uma outra abordagem de solução e não perder o código. Após o comando o branch será resetado para a versão de acordo com o repositorio.
+
+git stash list
+- Lista as stashes
+
+git stash <nome>
+- Obtém a stash
+
+git stash show -p <nome>
+- Mostra as alterações da stash
+
+git stash clear
+git stash drop <nome>
+- Limpa as stash
+
+# Utilizando tags
+
+git tag -a <nome> -m <msg>
+- Cria um checkpoint, para voltarmos facilmente. É utilizado para demarcar estágios do desenvolvimento de algum recurso.
+
+git show 
+- Ver as tags.
+
+git show <nome>
+- Ver uma tag detalhada.
+
+git push origin <nome>
+git push origin --tags
+- Enviar tags para o repositório.
+
+# Compartilhamento e atualização de branches
+
+git fetch -a
+- Atualiza o repositório local com todos os branchs e tags não reconhecidos. Depois utilize o checkout para ir para o branch recebido.
+
+git push --set -upstream origin <nome>
+- Envia a branch pro repositório.
+
+git pull <nome>
+- Recebe alterações
